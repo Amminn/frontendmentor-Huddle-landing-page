@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Colors */
+
+    --primary-color: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+    /*  Typography */
+
+    --Headings-font: 'Poppins', sans-serif;
+    --Headings-weights: 600;
+    --body-font: 'Open Sans', sans-serif;
+    --body-weight-small: 400;
+    --body-weight-big: 700;
+
+}
+
+html{
+    font-family: var(--body-font);
+    font-size: 10px; 
+}
+
+section{
+    padding: 4rem 0rem;
+}
+
+img{
+    width: 100%;
+    max-width: 100%; /* this will provide the image to get more bigger than the section */
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 122.5rem; 
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+header{
+    width: 100%;
+    min-height: 60rem;
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url("./images/bg-hero-mobile.svg");
+    margin-bottom: 2rem;
+}
+
+nav{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.logo a img{
+    width: auto;
+    height: 2.5rem;
+}
+
+.nav-btn{
+    background: white;
+    padding: 0.7rem 4.5rem;
+    border-radius: 2rem;
+    color: black;
+    font-family: var(--Headings-font);
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+header .content{
+    text-align: center;
+}
+
+header .content h1{
+    color: rgb(61, 61, 61);
+    font-size: 3.4rem;
+    font-family: var(--Headings-font);
+    margin-bottom: 1.6rem;
+}
+
+header .content p{
+    font-size: 2rem;
+    font-family: var(--body-font);
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+}
+
+.main-btn{
+    color: white;
+    background-color: var(--primary-color);
+    padding: 1.4rem 7rem;
+    font-size: 18px;
+    border-radius: 3rem;
+    font-family: var(--body-font);
+    transition: .4s ease;
+}
+
+.main-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+header .nav-img{
+    margin: 7rem 0 4rem 0;
+}
+
+/* ------------main starts here------- */
+
+.box-styling {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+    border-radius: 2rem;
+    padding: 6rem;
+}
+
+.box-styling .grow-together-image {
+    margin-bottom: 6rem;
+}
+
+.box-styling .content {
+    text-align: center;
+    padding: 0 1.5rem
+}
+
+.box-styling .content h2 {
+    font-family: var(--Headings-font);
+    font-weight: var(--Headings-weights);
+    font-size: 2.6rem;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1.5rem;
+}
+
+.box-styling .content {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    border-radius: 2rem;
+    border-radius: 2rem;
+    width: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px){
+
+}
+
+
+
+
